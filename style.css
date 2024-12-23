@@ -154,6 +154,8 @@ main{
 .solutions-wrapper > div{
     display: flex;
     align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .solutions-wrapper > div > div{
@@ -180,12 +182,50 @@ main{
 .solutions-wrapper > div > div:nth-child(2){
     text-align: right;
     
-
-    
 }
 
-.solutions-wrapper > div > div:nth-child(2)img{
+/* new banner */
+
+.continer2{
+    background-color: #231A36;
+    padding: 100px 0px;
+}
+
+.number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 100px 0px 100px; 
+}
+
+.violet-wrapper{
+    text-align: center;
+    color: #ffffff;
+}
+
+.violet-wrapper p{
+    color: #7B9292;
+}
+
+
+/* collection3 */
+
+.collection3{
+    padding: 100px 0px;
+}
+
+.collection-wrapper{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.collection{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+
 }
 
 
